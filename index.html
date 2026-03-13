@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>نسيم الغري للتجارة العامة</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Tahoma,sans-serif;background:#fff;color:#0f172a;line-height:1.7}
+    a{text-decoration:none;color:inherit}
+    .container{max-width:1200px;margin:auto;padding:0 24px}
+    header{position:sticky;top:0;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;z-index:50}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand h2{margin:0;font-size:24px}
+    .brand p{margin:4px 0 0;color:#64748b;font-size:14px}
+    .links{display:flex;gap:24px;flex-wrap:wrap}
+    .links a{font-size:15px;color:#334155}
+    .hero{padding:72px 0;background:linear-gradient(180deg,#fff 0%,#f8fafc 100%)}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+    .badge{display:inline-block;padding:8px 14px;border:1px solid #cbd5e1;border-radius:999px;color:#475569;font-size:14px}
+    h1{font-size:58px;line-height:1.1;margin:20px 0}
+    .muted{color:#64748b}
+    .lead{font-size:20px;color:#475569;max-width:760px}
+    .btns{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+    .btn{padding:14px 22px;border-radius:16px;font-weight:700;display:inline-block}
+    .btn-primary{background:#0f172a;color:#fff}
+    .btn-secondary{border:1px solid #cbd5e1;color:#0f172a;background:#fff}
+    .hero-card{background:#fff;border:1px solid #e2e8f0;border-radius:24px;padding:28px;box-shadow:0 12px 30px rgba(15,23,42,.06)}
+    .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:14px}
+    .stat{background:#fff;border:1px solid #e2e8f0;border-radius:20px;padding:20px}
+    section{padding:72px 0}
+    .section-kicker{font-size:14px;font-weight:700;color:#64748b}
+    .section-title{font-size:40px;margin:8px 0 14px}
+    .about p,.section-desc{font-size:18px;color:#475569;max-width:850px}
+    .products{background:#f8fafc}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .card{background:#fff;border:1px solid #e2e8f0;border-radius:24px;overflow:hidden;box-shadow:0 10px 26px rgba(15,23,42,.06)}
+    .card img{display:block;width:100%;height:280px;object-fit:cover;background:#e2e8f0}
+    .card-body{padding:20px}
+    .cat{font-size:13px;color:#64748b;font-weight:700}
+    .card h3{margin:8px 0 10px;font-size:24px}
+    .card p{margin:0;color:#475569}
+    .services-grid,.features-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .box{border:1px solid #e2e8f0;border-radius:22px;padding:22px;background:#fff;box-shadow:0 8px 22px rgba(15,23,42,.05)}
+    .box h4{margin:0 0 8px;font-size:20px}
+    .contact{background:#0f172a;color:#fff}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .contact p{color:#cbd5e1}
+    .contact-card{background:#fff;color:#0f172a;border-radius:24px;padding:28px}
+    .contact-list p{margin:8px 0;color:#334155}
+    footer{border-top:1px solid #e2e8f0;padding:24px 0 40px;color:#64748b}
+    .wa{position:fixed;left:24px;bottom:24px;background:#16a34a;color:#fff;padding:14px 20px;border-radius:999px;font-weight:700;box-shadow:0 10px 24px rgba(0,0,0,.2)}
+    @media (max-width: 980px){
+      .hero-grid,.contact-grid,.grid,.services-grid,.features-grid{grid-template-columns:1fr}
+      h1{font-size:40px}
+      .section-title{font-size:30px}
+      .links{display:none}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <h2>نسيم الغري للتجارة العامة</h2>
+        <p>موقع تعريفي احترافي</p>
+      </div>
+      <nav class="links">
+        <a href="#about">من نحن</a>
+        <a href="#products">بعض منتجاتنا</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#why-us">لماذا نحن</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="badge">شركة موثوقة • جودة • التزام</span>
+        <h1>نسيم الغري<br><span class="muted">للتجارة العامة</span></h1>
+        <div class="lead">شركة عراقية مقرها النجف، تعمل في مجال التجارة العامة وتجهيز المنتجات، وتركز على تقديم حلول موثوقة وجودة عالية وخدمة منظمة تلبي احتياجات السوق والعملاء بكل احترافية.</div>
+        <div class="btns">
+          <a class="btn btn-primary" href="#products">تصفح بعض منتجاتنا</a>
+          <a class="btn btn-secondary" href="#contact">تواصل معنا</a>
+        </div>
+      </div>
+      <div>
+        <div class="hero-card">
+          <div class="section-kicker">نبذة سريعة</div>
+          <div style="font-size:28px;font-weight:700;margin:6px 0 10px">شريكك في النمو والتوسع</div>
+          <p>نسيم الغري للتجارة العامة تسعى إلى بناء حضور مهني قوي في السوق من خلال الالتزام بالجودة، الموثوقية، وسرعة الاستجابة، مع التركيز على التعامل الاحترافي وبناء علاقات طويلة الأمد قائمة على الثقة.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><div style="font-size:28px;font-weight:700">شركة</div><div class="muted">تجارة عامة</div></div>
+          <div class="stat"><div style="font-size:28px;font-weight:700">خدمة</div><div class="muted">جودة وثقة</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-kicker">من نحن</div>
+      <div class="section-title">شركة تركز على الجودة والثقة</div>
+      <p>نسيم الغري للتجارة العامة شركة عراقية مقرها النجف، تعمل على بناء حضور مهني قوي في السوق من خلال الالتزام بالجودة، الموثوقية، وسرعة الاستجابة. نسعى إلى تقديم خدمات ومنتجات تلائم احتياجات العملاء، مع التركيز على التعامل الاحترافي وبناء علاقات طويلة الأمد قائمة على الثقة.</p>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <div class="section-kicker">بعض منتجاتنا</div>
+      <div class="section-title">نماذج من المنتجات التي نوفرها</div>
+      <p class="section-desc">هذه بعض المنتجات التي توفرها شركة نسيم الغري للتجارة العامة وليست جميع المنتجات. بدأنا بعرض المنتجات غير الكهربائية أولاً ثم بقية الأجهزة.</p>
+      <div class="grid" style="margin-top:28px">
+        <div class="card">
+          <img src="images/سيت قدور.jpg" alt="سيت قدور ستيل">
+          <div class="card-body">
+            <div class="cat">منتجات منزلية</div>
+            <h3>سيت قدور ستيل</h3>
+            <p>طقم قدور للمطبخ بجودة عالية وتصميم عملي مناسب للاستخدام اليومي.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/سكاكين.jpeg" alt="طقم سكاكين مطبخ مع حامل">
+          <div class="card-body">
+            <div class="cat">أدوات مطبخ</div>
+            <h3>طقم سكاكين مطبخ مع حامل</h3>
+            <p>طقم سكاكين احترافي مع حامل أنيق لتنظيم السكاكين في المطبخ.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/ثلج.jpg" alt="صانعة ثلج كهربائية">
+          <div class="card-body">
+            <div class="cat">أجهزة منزلية</div>
+            <h3>صانعة ثلج كهربائية</h3>
+            <p>جهاز عملي لصناعة الثلج بسرعة، مناسب للاستخدام المنزلي أو في المكاتب.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/شعر البنات.jpg" alt="آلة غزل البنات">
+          <div class="card-body">
+            <div class="cat">أجهزة منزلية</div>
+            <h3>آلة غزل البنات</h3>
+            <p>جهاز عملي لتحضير غزل البنات بسهولة في المنزل والحفلات والمناسبات العائلية.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/مكنسة.jpg" alt="مكنسة كهربائية للرطب والجاف">
+          <div class="card-body">
+            <div class="cat">أجهزة تنظيف</div>
+            <h3>مكنسة كهربائية للرطب والجاف</h3>
+            <p>مكنسة قوية لتنظيف الأوساخ الجافة والسوائل بقوة شفط عالية وتصميم عملي.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="section-kicker">خدماتنا</div>
+      <div class="section-title">ما الذي نقدمه لعملائنا</div>
+      <div class="services-grid">
+        <div class="box">
+          <h4>توريد وتجهيز المنتجات</h4>
+          <p>نقدم هذه الخدمة بأسلوب عملي ومنظم يضمن للعميل وضوح التعامل وجودة التنفيذ وسرعة الاستجابة.</p>
+        </div>
+        <div class="box">
+          <h4>خدمات التجارة العامة</h4>
+          <p>حلول مرنة تلائم احتياجات الشركات والعملاء مع متابعة احترافية وتنظيم واضح.</p>
+        </div>
+        <div class="box">
+          <h4>تجهيز الشركات والمؤسسات</h4>
+          <p>نوفر خيارات متعددة لتجهيز الجهات المختلفة حسب طبيعة الطلب والمواصفات المطلوبة.</p>
+        </div>
+        <div class="box">
+          <h4>متابعة الطلبات وخدمة العملاء</h4>
+          <p>متابعة مستمرة وخدمة منظمة تضمن تجربة أفضل وتواصل أسرع مع العملاء.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why-us">
+    <div class="container">
+      <div class="section-kicker">لماذا نحن</div>
+      <div class="section-title">أسباب تجعل العملاء يختاروننا</div>
+      <p class="section-desc">هذا القسم مهم في الموقع التعريفي لأنه يحول الزيارة من مجرد مشاهدة إلى ثقة فعلية، ويعكس أسلوب الشركة في العمل والتعامل مع العملاء.</p>
+      <div class="features-grid" style="margin-top:24px">
+        <div class="box"><h4>ثقة ومصداقية</h4><p>تعامل واضح واحترافي يبني علاقة طويلة الأمد مع العميل.</p></div>
+        <div class="box"><h4>التزام بالجودة</h4><p>اختيار منتجات مناسبة مع متابعة مستمرة للجودة والتنفيذ.</p></div>
+        <div class="box"><h4>خدمة منظمة وسريعة</h4><p>سرعة في الاستجابة وترتيب أفضل للطلبات والتواصل.</p></div>
+        <div class="box"><h4>تعامل مهني</h4><p>نهج عملي يركز على رضا العميل والاستمرارية في العمل.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container contact-grid">
+      <div>
+        <div class="section-kicker" style="color:#cbd5e1">تواصل معنا</div>
+        <div class="section-title" style="color:#fff">جاهزون لخدمتكم</div>
+        <p>للتواصل مع نسيم الغري للتجارة العامة يمكنكم الاتصال أو المراسلة عبر البريد الإلكتروني، كما يمكن زيارة عنوان الشركة في النجف حي الحرفيين.</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-list">
+          <p><strong>الهاتف:</strong> 07822722745</p>
+          <p><strong>رقم المدير المفوض:</strong> 07706130353</p>
+          <p><strong>البريد الإلكتروني:</strong> naseemalgharicompany@gmail.com</p>
+          <p><strong>البريد الإلكتروني:</strong> Malikboss.alftlawy@gmail.com</p>
+          <p><strong>العنوان:</strong> النجف، حي الحرفيين</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">© 2026 نسيم الغري للتجارة العامة. جميع الحقوق محفوظة.</div>
+  </footer>
+
+  <a class="wa" href="https://wa.me/9647822722745" target="_blank">واتساب</a>
+</body>
+</html>
